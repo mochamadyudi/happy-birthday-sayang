@@ -8,7 +8,8 @@ RUN npm install --legacy-peer-deps
 
 COPY . .
 
-RUN npm run build --production
+RUN npm run init-index-local
+RUN npm run build:parcel
 
 RUN npm install -g serve
 

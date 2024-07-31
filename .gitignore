@@ -3,5 +3,3 @@ node_modules/
 dist/
 *-safe.*
 temp/
-src/index.html
-src/pic.jpeg
